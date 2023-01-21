@@ -1,0 +1,11 @@
+## Add complete path if this config doesnt detect the dataset
+train: ./yolodata/images/train
+test: ./yolodata/images/test
+val: ./yolodata/images/val
+#Classes
+nc: 10 # replace according to your number of classes
+#classes names
+#replace all class names list with your classes names
+names: ['GARBAGE', 'BAD_BILLBOARD', 'SAND_ON_ROAD', 'GRAFFITI', 'POTHOLES',
+       'CLUTTER_SIDEWALK', 'CONSTRUCTION_ROAD', 'BROKEN_SIGNAGE',
+       'UNKEPT_FACADE', 'FADED_SIGNAGE']
